@@ -1,0 +1,177 @@
+body{
+    background-color: rgba(255, 255, 255, 0.338);
+    background-image: url('logo.png');
+    background-repeat:space;
+    background-attachment: fixed;  
+    background-size: 300px;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cambria', 'Lucida Sans Regular', 'Times New Roman';
+}
+
+
+ .nb{
+    background-color: rgba(173, 19, 19, 0.452);
+    position: sticky;
+    top: 10px;
+    display: flex;
+    z-index: 10;
+}
+
+.unb{
+    display: flex;
+    list-style-type: none;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.l{
+    border: 5px red double;
+    background-color: white;
+    margin: 0px 25px;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.isi{
+    border: 3px black outset;
+    margin-top:20px ;
+}
+
+.isi1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.m1{
+    background-color: white;
+    border: 4px red double;
+    padding: 5px 10px 5px 20px;
+    width: 350px;
+    margin: 25px;
+    scroll-margin-top: 130px;
+}
+ 
+.m2{
+    background-color: white;
+    border: 4px red double;
+    padding: 5px 10px 5px 20px;
+    width: 350px;
+    margin: 25px;
+    scroll-margin-top: 130px;
+}
+
+.m3{
+    background-color: white;
+    border: 4px red double;
+    padding: 5px 10px 5px 20px;
+    width: 350px;
+    margin: 25px;
+    scroll-margin-top: 130px;
+}
+
+.m4{
+    background-color: white;
+    border: 4px red double;
+    padding: 5px 10px 20px 20px;
+    width: 350px;
+    margin: 25px;
+    scroll-margin-top: 130px;
+}
+
+.isi2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.m5{
+    background-color: white;
+    border: 4px red double;
+    padding: 5px 10px 20px 20px;
+    width: 350px;
+    margin: 25px;
+    scroll-margin-top: 130px;
+}
+
+.m67{
+    background-color: white;
+    border: 4px red double;
+    padding: 5px 10px 20px 20px;
+    width: 800px;
+    display: flex;
+    margin: 25px;
+    scroll-margin-top: 130px;
+}
+.m6{
+  
+    margin: 0 25px;
+    margin-right: 100px;
+}
+
+.m7{
+    margin: 0 25px;
+}
+
+.m8{
+    background-color: white;
+    border: 4px red double;
+    padding: 5px 10px 20px 20px;
+    width: 350px;
+    padding: 15px;
+    margin: 25px;
+    scroll-margin-top: 130px;
+}
+
+.jd{
+    text-shadow: 2px 2px 5px red;
+    color: black;
+}
+
+.cp{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.nf{
+    background-color: rgba(173, 19, 19, 0.452);
+    position: sticky;
+    display: flex;
+    bottom: 10px;
+    z-index: 10;
+}
+
+.boxf{
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.payt{
+    margin-right: 25px;
+    padding-right: 20px;
+}
+
+#payk{
+    margin-right: 0px;
+}
